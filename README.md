@@ -16,6 +16,8 @@ Exmaple of Black Box Boundary Attack for Pairs of ECG Data (Original & Target)
 %cd
 %cd /content/drive/My Drive/ECG_v1
 
+# i and j represent the 4 types of ECG classifications 
+# k represents how many pairs the user decides to create for each combination of original and target ECG pairs
 for i in range(4):
   for j in range(4):
     if(i == j):
