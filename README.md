@@ -1,5 +1,5 @@
 # Black-Box-ECG-attack
-The code in this repository is for the paper "Hard-Label Black-Box Adversarial Attack on Deep Electrocardiogram Classifier".
+The code in this repository is for the paper "Hard-Label Black-Box Adversarial Attack on Deep Electrocardiogram Classifier". It was created for use within the Google Colab environment, which is based on Python 3. The files required from this GitHub Repository are in the ECG_v1 folder, download it to get started.
 #### File Descriptions
 attack.py: main document for running attack<br/>
 boundary_attack.py: function definitions used in attack.py, saving necessary numpy files of progress of attack<br/>
