@@ -5,7 +5,7 @@ attack.py: main document for running attack<br/>
 boundary_attack.py: function definitions used in attack.py, saving necessary numpy files of progress of attack<br/>
 utils.py: additional function definitions, specifically the smoothing function for perturbations<br/>
 
-There are comments within the ECG_Adversarial_Attacks.pynb about how to run both the white box and black box attacks. The code cells should be run in order which they are presented. The necessary files are all cited, including the dataset, white-box attack, and required versions of TensorFlow and other packages. 
+The ECG_Adversarial_Attacks.pynb is used to running both our black box attack and the white box attack we compared it with. There are comments within the ECG_Adversarial_Attacks.pynb about how to run both attacks. The code cells should be run in order which they are presented. The necessary files are all cited, including the dataset, white-box attack, and required versions of TensorFlow and other packages. Any necessary files that need to be downloaded are listed with links and scripts. 
  
 Further details regarding the white-box attack and its respective arguments can be found in the repository below:
 https://github.com/codespace123/ECGadv
