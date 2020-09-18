@@ -1,15 +1,15 @@
 # Black-Box-ECG-attack
-The code in this repository is for the paper "Hard-Label Black-Box Adversarial Attack on Deep Electrocardiogram Classifier". It was created for use within the Google Colab environment, which is based on Python 3. The files required from this GitHub Repository are in the ECG_v1 folder, download it to get started.
+The code in this repository is for the paper "Hard-Label Black-Box Adversarial Attack on Deep Electrocardiogram Classifier". It was created for use within the Google Colab environment, which is based on Python 3. The files required from this GitHub Repository are in the ECG_v1 folder and the ECG_Adversarial_Attacks.pynb, download them to get started.
 #### File Descriptions
+###### Within ECG_v1 folder
 attack.py: main document for running attack<br/>
 boundary_attack.py: function definitions used in attack.py, saving necessary numpy files of progress of attack<br/>
 utils.py: additional function definitions, specifically the smoothing function for perturbations<br/>
-
-The ECG_Adversarial_Attacks.pynb is used to running both our black box attack and the white box attack we compared it with. There are comments within the ECG_Adversarial_Attacks.pynb about how to run both attacks. The code cells should be run in order which they are presented. The necessary files are all cited, including the dataset, white-box attack, and required versions of TensorFlow and other packages. Any necessary files that need to be downloaded are listed with links and scripts. 
+##### ECG_Adversarial_Attacks.pynb
+The ECG_Adversarial_Attacks.pynb is used to running both our black box attack and the white box attack we compared it with. There are comments about how to run both attacks. The code cells should be run in order which they are presented. The additional necessary files are all cited with links and scripts, including the dataset, white-box attack, and required versions of TensorFlow and other packages. 
  
 Further details regarding the white-box attack and its respective arguments can be found in the repository below:
 https://github.com/codespace123/ECGadv
-
 
 Exmaple of Black Box Boundary Attack for Pairs of ECG Data (Original & Target)
 ```
