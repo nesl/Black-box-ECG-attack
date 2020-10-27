@@ -11,6 +11,8 @@ The ECG_Adversarial_Attacks.pynb is used to running both our black box attack an
 Further details regarding the white-box attack and its respective arguments can be found in the repository below:
 https://github.com/codespace123/ECGadv
 
+All instructions for downloading and preparing the ECG dataset to replicate this are in the ECG_Adversarial_Attacks.pynb file.
+
 Exmaple of Black Box Boundary Attack for Pairs of ECG Data (Original & Target)
 ```
 %cd
